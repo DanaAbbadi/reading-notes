@@ -7,7 +7,7 @@ In this website, you can find all my 201 reading notes.
 Read# | Link
 -------|-------
 Read 1 | [Link 1](https://danaabbadi.github.io/reading-notes/read01)
-Read 2 | [Link 2](https://danaabbadi.github.io/reading-notes/)
+Read 2 | [Link 2](https://danaabbadi.github.io/reading-notes/class02)
 Read 3 | [Link 3](https://danaabbadi.github.io/reading-notes/)
 Read 4 | [Link 4](https://danaabbadi.github.io/reading-notes/)
 Read 5 | [Link 5](https://danaabbadi.github.io/reading-notes/)
