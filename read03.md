@@ -79,7 +79,7 @@ This is how it works:
 - If there is a match, the associated block of code is executed.
 - If there is no match, the default code block is executed.
 
-![img1]('https://www.bookofnetwork.com/images/javascript-images/JS_switch-syntax_20Sep16_1827.png')
+![img1](https://www.bookofnetwork.com/images/javascript-images/JS_switch-syntax_20Sep16_1827.png)
 
 'break' statement is used to come out of switch and continue execution of statement(s) following switch.
 
