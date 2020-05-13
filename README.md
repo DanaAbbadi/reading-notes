@@ -9,7 +9,7 @@ Read# | Link
 Read 1 | [Link 1](https://danaabbadi.github.io/reading-notes/read01)
 Read 2 | [Link 2](https://danaabbadi.github.io/reading-notes/class02)
 Read 3 | [Link 3](https://danaabbadi.github.io/reading-notes/read03)
-Read 4 | [Link 4](https://danaabbadi.github.io/reading-notes/)
+Read 4 | [Link 4](https://danaabbadi.github.io/reading-notes/read04)
 Read 5 | [Link 5](https://danaabbadi.github.io/reading-notes/)
 Read 6 | [Link 6](https://danaabbadi.github.io/reading-notes/)
 Read 7 | [Link 7](https://danaabbadi.github.io/reading-notes/)
