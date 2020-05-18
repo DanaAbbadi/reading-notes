@@ -57,7 +57,9 @@ Object: Object is the collection of related data or functionality in the form of
 
 Sometimes we need a "blueprint" for creating many objects of the same "type". The way to create an "object type", is to use an object constructor function. In the example above, function Person() is an object constructor function. Objects of the same type are created by calling the constructor function with the **new** keyword. For example:
 
-![img](https://ibb.co/TvhydTw)
+var myFather = new Person("John", "Doe", 50, "blue");
+var myMother = new Person("Sally", "Rally", 48, "green");
+
 
 * The this Keyword
 In JavaScript, the thing called *this* is the object that "owns" the code. The value of this, when used in an object, is the object itself. In a constructor function this does not have a value. It is a substitute for the new object. The value of this will become the new object when a new object is created.
