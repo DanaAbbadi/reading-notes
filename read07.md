@@ -32,7 +32,24 @@ like the < td> element but its
 purpose is to represent the
 heading for either a column or
 a row. (The th stands for table
-heading.) 
+heading.)
+
+* Follow this table to summurize the tags:
+
+Tag/Element | Description
+ < table>|  define a table
+ < tr> |  define a table row
+< td> |   define a table data
+< th> |  define a table heading
+ < caption> | to define a table caption
+ CSS border property | to define a border
+CSS border-collapse property | to collapse cell borders
+CSS padding property | to add padding to cells
+CSS text-align property |  to align cell text
+CSS border-spacing property | to set the spacing between cells
+colspan attribute | to make a cell span many columns
+rowspan attribute | to make a cell span many rows
+ id attribute | to uniquely define one table
 
 
 # JavaScript : Object Constructors
@@ -40,7 +57,8 @@ Object: Object is the collection of related data or functionality in the form of
 
 Sometimes we need a "blueprint" for creating many objects of the same "type". The way to create an "object type", is to use an object constructor function. In the example above, function Person() is an object constructor function. Objects of the same type are created by calling the constructor function with the **new** keyword. For example:
 
-!(img)[/mnt/c/Users/STD/ltuc/201/reading-notes/img/Capture.PNG]
+![img](/mnt/c/Users/STD/ltuc/201/reading-notes/img/Capture.PNG)
+
 * The this Keyword
 In JavaScript, the thing called *this* is the object that "owns" the code. The value of this, when used in an object, is the object itself. In a constructor function this does not have a value. It is a substitute for the new object. The value of this will become the new object when a new object is created.
 
@@ -58,6 +76,22 @@ objectname.name = function () {
   code
 };
 
+### BUILT-IN OBJECTS
+
+1. THE BROWSER OBJECT MODEL: THE WINDOW OBJECT
+
+The window object represents the current
+browser window or tab. It is the topmost object
+in the Browser Object Model, and it contains
+other objects that tell you about the browser. 
+
+2. THE DOCUMENT OBJECT MODEL:
+The topmost object in the Document Object Model (or DOM) is the
+document object. It represents the web page loaded into the current
+browser window or tab.
+
+3. GLOBAL OBJECTS: 
+JavaScript sports a number of built-in objects that extend the flexibility of the language. These objects are Date, Math, String, Array, and Object. 
 
 
 
@@ -75,7 +109,7 @@ To define the same properties between many objects, you'll want to use a constru
 3. Model its behaviors with small methods that focus on doing one job well.
 4. Create instances using the new keyword followed by a call to a constructor function.
 5. Store the newly created object in a variable so you can access its properties and methods from outside.
-6. Use the this variable within methods so you can access the object's properties and methods from inside.
+6. this variable within methods so you can access the object's properties and methods from inside.
 
 
 
