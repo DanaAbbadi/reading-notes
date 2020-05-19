@@ -48,12 +48,9 @@
      need a CSS property to indicate
      that elements should appear
      in normal flow, but the syntax
-     would be:
-         
-    <p style="color:blue"> position: static; </p>.
+     would be:   position: static;
 
  2. Relative positioning 
- <p style="color:blue"> position: relative; </p>.
 
     This moves an element from the
     position it would be in normal
@@ -75,7 +72,6 @@
 
 
  3. Absolute positioning
- <p style="color:blue"> position: absolute; </p>.
  
     This positions the element
     in relation to its containing
@@ -94,7 +90,6 @@
 
 
  4. Fixed Positioning
- <p style="color:blue"> position: fixed; </p>.
 
     This is a form of absolute
     positioning that positions
@@ -108,7 +103,6 @@
     scrolls up or down the page.
 
  5. Floating Elements
- <p style="color:blue"> float: </p>.
 
     Floating an element allows
     you to take that element out
@@ -154,7 +148,7 @@
        containing element.
 
      4. none
-     
+
        Elements can touch either side.
 
  
