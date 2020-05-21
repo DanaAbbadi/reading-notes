@@ -115,7 +115,7 @@ In javascript, the console is an object which provides access to the browser deb
 
 1. log()
 
-    Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
+   Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
 
 2. error()
 
@@ -130,7 +130,7 @@ In javascript, the console is an object which provides access to the browser deb
 
 5. time() and timeEnd()
 
-  Whenever we want to know the amount of time spend by a block or a function, we can make use of the time() and timeEnd() methods provided by the javascript console object. They take a label which must be same.
+   Whenever we want to know the amount of time spend by a block or a function, we can make use of the time() and timeEnd() methods provided by the javascript console object. They take a label which must be same.
 
 6. table()
 
@@ -142,7 +142,7 @@ In javascript, the console is an object which provides access to the browser deb
 
 8. group() and groupEnd()
 
-    group() and groupEnd() methods of the console object allows us to group contents in a separate block, which will be indented.
+   group() and groupEnd() methods of the console object allows us to group contents in a separate block, which will be indented.
 
 
 
