@@ -7,15 +7,15 @@ JS Engine performs following two steps when executing any code:
 
 1. CREATION PHASE :
 
-JS Engine parses - run through your code & identifies variables & functions created by code (which will be used in execution phase)
-Setup memory space for Variables & Functions - "Hoisting".
+   JS Engine parses - run through your code & identifies variables & functions created by code (which will be used in execution phase)
+   Setup memory space for Variables & Functions - "Hoisting".
 
-* Hoisting - before your code is executed, the JS Engine set asides memory space for Var & Function used inside the code. These variables & functions comprise the Execution Context of any function that is be executed. All variables in JS are initially set to undefined.
+   * Hoisting - before your code is executed, the JS Engine set asides memory space for Var & Function used inside the code. These variables & functions comprise the Execution Context of any function that is be executed. All variables in JS are initially set to undefined.
 
 2. Execution PHASE: pretty simple to understand,
 
-When the code is executed line-by-line (by JS interpreeter) it can access the variables defined inside Execution Context.
-variable assignment are done in this phase.
+   When the code is executed line-by-line (by JS interpreeter) it can access the variables defined inside Execution Context.
+   variable assignment are done in this phase.
 
 
 A new Execution Context is created whenever function invocation is there.
@@ -89,11 +89,11 @@ There are two things you can do with the errors:
 
 1. DEBUG THE SCRIPT TO FIX ERRORS
 
-If you come across an error while writing a script, you will need to debug the code, track down the source of the error, and fix it. 
+   If you come across an error while writing a script, you will need to debug the code, track down the source of the error, and fix it. 
 
 2. HANDLE ERRORS GRACEFULLY
-You can handle errors gracefully using try, catch,
-throw, and f i na 1 ly statements
+   You can handle errors gracefully using try, catch,
+   throw, and f i na 1 ly statements
 
 ### BROWSER DEV TOOLS & JAVASCRIPT CONSOLE 
 
@@ -114,34 +114,34 @@ In javascript, the console is an object which provides access to the browser deb
 
 1. log()
 
-Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
+    Mainly used to log(print) the output to the console. We can put any type inside the log(), be it a string, array, object, boolean etc.
 
 2. error()
 
-Used to log error message to the console. Useful in testing of code. 
+   Used to log error message to the console. Useful in testing of code. 
 3. warn()
 
-Used to log warning message to the console. By default the warning message will be highlighted with yellow color.
+   Used to log warning message to the console. By default the warning message will be highlighted with yellow color.
 
 4. clear()
 
-Used to clear the console.
+   Used to clear the console.
 
 5. time() and timeEnd()
 
-Whenever we want to know the amount of time spend by a block or a function, we can make use of the time() and timeEnd() methods provided by the javascript console object. They take a label which must be same.
+  Whenever we want to know the amount of time spend by a block or a function, we can make use of the time() and timeEnd() methods provided by the javascript console object. They take a label which must be same.
 
 6. table()
 
-This method allows us to generate a table inside a console. The input must be an array or an object which will be shown as a table.
+   This method allows us to generate a table inside a console. The input must be an array or an object which will be shown as a table.
 
 7. count()
 
-This method is used to count the number that the function hit by this counting method.
+   This method is used to count the number that the function hit by this counting method.
 
 8. group() and groupEnd()
 
-group() and groupEnd() methods of the console object allows us to group contents in a separate block, which will be indented.
+    group() and groupEnd() methods of the console object allows us to group contents in a separate block, which will be indented.
 
 
 
