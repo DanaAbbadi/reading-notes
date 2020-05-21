@@ -73,6 +73,7 @@ There are seven types of built-in error objects in
 JavaScript. 
 
 OBJECT | DESCRIPTION 
+-------|-------
 Error | Generic error - the other errors are all based upon this error
 Syntax Error | Syntax has not been followed 
 Ref erenceError | Tried to reference a variable that is
