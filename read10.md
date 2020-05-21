@@ -39,7 +39,7 @@ Code:
 - First, Global Execution Context is going to be created 
 
 - Then execution starts and interpreeter encounters *call to function a()* , and here a new execution context is created pushed on top EC
-Stack, so anytime you invoke a function a new EC is created & placed on top of EC Stack.
+  Stack, so anytime you invoke a function a new EC is created & placed on top of EC Stack.
 
 - So now EC for a() is CREATED interpreeter will execute the code inside a() line-by-line
 
@@ -72,18 +72,15 @@ of the browser.
 There are seven types of built-in error objects in
 JavaScript. 
 
-OBJECT | DESCRIPTION 
--------|-------
-Error | Generic error - the other errors are all based upon this error
-Syntax Error | Syntax has not been followed 
-Ref erenceError | Tried to reference a variable that is
-not declared/within scope 
-TypeError | An unexpected data type that
-cannot be coerced 
-Range Error | Numbers not in acceptable range
-URI Error | encodeURI ().decodeURI(),and
-similar methods used incorrectly 
-Eval Error | eva l () function used incorrectly
+OBJECT          | DESCRIPTION 
+-------         |-------
+Error           | Generic error - the other errors are all based upon this error
+Syntax Error    | Syntax has not been followed 
+Ref erenceError | Tried to reference a variable that is not declared/within scope 
+TypeError       | An unexpected data type that cannot be coerced 
+Range Error     | Numbers not in acceptable range
+URI Error       | encodeURI ().decodeURI(),and similar methods used incorrectly 
+Eval Error      | eva l () function used incorrectly
 
 ### HOW TO DEAL WITH ERRORS 
 There are two things you can do with the errors:
