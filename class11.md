@@ -128,7 +128,7 @@ To show a video in HTML, use the < video> element; for example:
 - The < source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
 
 
-### The HTML <audio> Element
+### The HTML < audio> Element
 
 To play an audio file in HTML, use the < audio> element:
 
