@@ -72,6 +72,7 @@ of the browser.
 There are seven types of built-in error objects in
 JavaScript. 
 
+
 OBJECT          | DESCRIPTION 
 -------         |-------
 Error           | Generic error - the other errors are all based upon this error
