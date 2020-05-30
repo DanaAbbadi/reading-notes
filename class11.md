@@ -80,12 +80,13 @@ In order to determine who comes first in the search results, search engines do n
 techniques.
 
 * **on-page SEO** 
+
 The **on-page SEO** factors are those elements that happen on your website. These are the things that you have complete control over, meaning that you can work to improve these factors over time by following best practices for SEO. This goes beyond just your content marketing to the deeper levels of your site’s HTML.
 
 Here are just a few of the on-page SEO factors that can help you improve your search ranking:
 
 
-   1. **Title Tag** – The title tag on each page tells the search engines what your page is about. This should be 70 characters or less, including both    the keyword your content focuses on and your business name.
+   1. **Title Tag** – The title tag on each page tells the search engines what your page is about. This should be 70 characters or less, including both the keyword your content focuses on and your business name.
 
    2. **Meta Description** – The meta description on your website tells search engines a little bit more about what each page is about. This is also used by your human visitors to better understand what the page is about and if it’s relevant. This should include your keyword and also provide enough details to tell the reader what the content is about.
 
@@ -109,8 +110,7 @@ Here are a few of the different off-page SEO factors that can impact your search
 
 
 # Video and Audio APIs
-
-#### The HTML <video> Element
+### The HTML < video> Element
 
 HTML5 comes with elements for embedding rich media in documents — < video> and < audio> — which in turn come with their own APIs for controlling playback, seeking, etc.  
 
@@ -128,11 +128,12 @@ To show a video in HTML, use the < video> element; for example:
 - The < source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
 
 
-#### The HTML <audio> Element
+### The HTML <audio> Element
 
 To play an audio file in HTML, use the < audio> element:
 
 Example:
+
                         < audio controls>
                           < source src="horse.ogg" type="audio/ogg">
                           < source src="horse.mp3" type="audio/mpeg">
